@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.masso.mylrtguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logomylrt"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TamanMelati"
+            android:label="@string/title_activity_taman_melati"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoWangsaMaju"
+            android:label="@string/title_activity_info_wangsa_maju"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoSriRampai"
+            android:label="@string/title_activity_info_sri_rampai"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoSetiaWangsa"
+            android:label="@string/title_activity_info_setia_wangsa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoJelatek"
+            android:label="@string/title_activity_info_jelatek"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoDatoKeramat"
+            android:label="@string/title_activity_info_dato_keramat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoDamai"
+            android:label="@string/title_activity_info_damai"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoAmpangPark"
+            android:label="@string/title_activity_info_ampang_park"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoKLCC"
+            android:label="@string/title_activity_info_klcc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoKampungBaru"
+            android:label="@string/title_activity_info_kampung_baru"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoMasjidJamek"
+            android:label="@string/title_activity_info_masjid_jamek"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoPasarSeni"
+            android:label="@string/title_activity_info_pasar_seni"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoKLSentral"
+            android:label="@string/title_activity_info_klsentral"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoBangsar"
+            android:label="@string/title_activity_info_bangsar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoAbdullahHukum"
+            android:label="@string/title_activity_info_abdullah_hukum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoKerinchi"
+            android:label="@string/title_activity_info_kerinchi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoUniversiti"
+            android:label="@string/title_activity_info_universiti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoTamanJaya"
+            android:label="@string/title_activity_info_taman_jaya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoAsiaJaya"
+            android:label="@string/title_activity_info_asia_jaya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoTamanParamount"
+            android:label="@string/title_activity_info_taman_paramount"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoTamanBahagia"
+            android:label="@string/title_activity_info_taman_bahagia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanMelatiInfo.InfoKelanaJaya"
+            android:label="@string/title_activity_info_kelana_jaya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractAqua"
+            android:label="@string/title_activity_attract_aqua"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractSuria"
+            android:label="@string/title_activity_attract_suria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractMenara"
+            android:label="@string/title_activity_attract_menara"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractMasjid"
+            android:label="@string/title_activity_attract_masjid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractDataran"
+            android:label="@string/title_activity_attract_dataran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractCity"
+            android:label="@string/title_activity_attract_city"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractSultan"
+            android:label="@string/title_activity_attract_sulta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractMarket"
+            android:label="@string/title_activity_attract_market"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaves"
+            android:label="@string/title_activity_batu_caves"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvTamanWahyu"
+            android:label="@string/title_activity_info_bt_cv_taman_wahyu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvKgBatu"
+            android:label="@string/title_activity_info_bt_cv_kg_batu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvBatuKenton"
+            android:label="@string/title_activity_info_bt_cv_batu_kenton"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvSentul"
+            android:label="@string/title_activity_info_bt_cv_sentul"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvPutra"
+            android:label="@string/title_activity_info_bt_cv_putra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvBankNegara"
+            android:label="@string/title_activity_info_bt_cv_bank_negara"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvKualaLumpur"
+            android:label="@string/title_activity_info_bt_cv_kuala_lumpur"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvKLSentral"
+            android:label="@string/title_activity_info_bt_cv_klsentral"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvMidValley"
+            android:label="@string/title_activity_info_bt_cv_mid_valley"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvSeputeh"
+            android:label="@string/title_activity_info_bt_cv_seputeh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvSalakSelatan"
+            android:label="@string/title_activity_info_bt_cv_salak_selatan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvBandarTasikSelatan"
+            android:label="@string/title_activity_info_bt_cv_bandar_tasik_selatan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvSerdang"
+            android:label="@string/title_activity_info_bt_cv_serdang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvKajang"
+            android:label="@string/title_activity_info_bt_cv_kajang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvUKM"
+            android:label="@string/title_activity_info_bt_cv_ukm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvBangi"
+            android:label="@string/title_activity_info_bt_cv_bangi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvBatangBenar"
+            android:label="@string/title_activity_info_bt_cv_batang_benar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvNilai"
+            android:label="@string/title_activity_info_bt_cv_nilai"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvLabu"
+            android:label="@string/title_activity_info_bt_cv_labu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvTiroi"
+            android:label="@string/title_activity_info_bt_cv_tiroi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvSeremban"
+            android:label="@string/title_activity_info_bt_cv_seremban"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvSenawang"
+            android:label="@string/title_activity_info_bt_cv_senawang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvSgGadut"
+            android:label="@string/title_activity_info_bt_cv_sg_gadut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvRembau"
+            android:label="@string/title_activity_info_bt_cv_rembau"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatuCaveInfo.InfoBtCvPulauSebangTampin"
+            android:label="@string/title_activity_info_bt_cv_pulau_sebang_tampin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpCahaya"
+            android:label="@string/title_activity_info_amp_cahaya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpCempaka"
+            android:label="@string/title_activity_info_amp_cempaka"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpPandanIndah"
+            android:label="@string/title_activity_info_amp_pandan_indah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpPandanJaya"
+            android:label="@string/title_activity_info_amp_pandan_jaya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpMaluri"
+            android:label="@string/title_activity_info_amp_maluri"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpMiharja"
+            android:label="@string/title_activity_info_amp_miharja"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpChanSowLin"
+            android:label="@string/title_activity_info_amp_chan_sow_lin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpPudu"
+            android:label="@string/title_activity_info_amp_pudu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpHangTuah"
+            android:label="@string/title_activity_info_amp_hang_tuah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpPlazaRakyat"
+            android:label="@string/title_activity_info_amp_plaza_rakyat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpMasjidJamek"
+            android:label="@string/title_activity_info_amp_masjid_jamek"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpBandarraya"
+            android:label="@string/title_activity_info_amp_bandarraya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpSultanIsmail"
+            android:label="@string/title_activity_info_amp_sultan_ismail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpPWTC"
+            android:label="@string/title_activity_info_amp_pwtc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpTitiwangsa"
+            android:label="@string/title_activity_info_amp_titiwangsa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpSentul"
+            android:label="@string/title_activity_info_amp_sentul"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AmpangInfo.InfoAmpSentulTimur"
+            android:label="@string/title_activity_info_amp_sentul_timur"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjKualaKubuBharu"
+            android:label="@string/title_activity_info_tanj_kuala_kubu_bharu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjRasa"
+            android:label="@string/title_activity_info_tanj_rasa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjBatangKali"
+            android:label="@string/title_activity_info_tanj_batang_kali"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjSerendah"
+            android:label="@string/title_activity_info_tanj_serendah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjRawang"
+            android:label="@string/title_activity_info_tanj_rawang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjKuang"
+            android:label="@string/title_activity_info_tanj_kuang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjSgBuluh"
+            android:label="@string/title_activity_info_tanj_sg_buluh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjKepongSentral"
+            android:label="@string/title_activity_info_tanj_kepong_sentral"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjSegambut"
+            android:label="@string/title_activity_info_tanj_segambut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjPutra"
+            android:label="@string/title_activity_info_tanj_putra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjBankNegara"
+            android:label="@string/title_activity_info_tanj_bank_negara"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjKualaLumpur"
+            android:label="@string/title_activity_info_tanj_kuala_lumpur"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjKLSentral"
+            android:label="@string/title_activity_info_tanj_klsentral"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjAngkasapuri"
+            android:label="@string/title_activity_info_tanj_angkasapuri"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjPantaiDalam"
+            android:label="@string/title_activity_info_tanj_pantai_dalam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjPetaling"
+            android:label="@string/title_activity_info_tanj_petaling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjJalanTempler"
+            android:label="@string/title_activity_info_tanj_jalan_templer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjKgDatoHarun"
+            android:label="@string/title_activity_info_tanj_kg_dato_harun"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjSeriSetia"
+            android:label="@string/title_activity_info_tanj_seri_setia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjSetiaJaya"
+            android:label="@string/title_activity_info_tanj_setia_jaya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjSubangJaya"
+            android:label="@string/title_activity_info_tanj_subang_jaya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjBatuTiga"
+            android:label="@string/title_activity_info_tanj_batu_tiga"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjShahAlam"
+            android:label="@string/title_activity_info_tanj_shah_alam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjPadangJawa"
+            android:label="@string/title_activity_info_tanj_padang_jawa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjBukitBadak"
+            android:label="@string/title_activity_info_tanj_bukit_badak"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjKlang"
+            android:label="@string/title_activity_info_tanj_klang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjTelukPulai"
+            android:label="@string/title_activity_info_tanj_teluk_pulai"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjTelukGadong"
+            android:label="@string/title_activity_info_tanj_teluk_gadong"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjKgRajaUda"
+            android:label="@string/title_activity_info_tanj_kg_raja_uda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjJalanKastam"
+            android:label="@string/title_activity_info_tanj_jalan_kastam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjPelabuhanKlang"
+            android:label="@string/title_activity_info_tanj_pelabuhan_klang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ErlKlia2Express"
+            android:label="@string/title_activity_erl_klia2_express"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ErlKlia2ExpressInfo.InfoErlKlia2ExKLIA"
+            android:label="@string/title_activity_info_erl_klia2_ex_kli"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ErlKlia2ExpressInfo.InfoErlKlia2ExKlSentral"
+            android:label="@string/title_activity_info_erl_klia2_ex_kl_sentral"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ErlKlia2TransitInfo.InfoErlKlia2TransKLIA"
+            android:label="@string/title_activity_info_erl_klia2_trans_kli"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ErlKlia2TransitInfo.InfoErlKlia2TransSalakTinggi"
+            android:label="@string/title_activity_info_erl_klia2_trans_salak_tinggi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ErlKlia2TransitInfo.InfoErlKlia2TransPutraCyber"
+            android:label="@string/title_activity_info_erl_klia2_trans_putra_cyber"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ErlKlia2TransitInfo.InfoErlKlia2TransBandarTasikSelatan"
+            android:label="@string/title_activity_info_erl_klia2_trans_bandar_tasik_selatan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ErlKlia2TransitInfo.InfoErlKlia2TransKlSentral"
+            android:label="@string/title_activity_info_erl_klia2_trans_kl_sentral"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ampang"
+            android:label="@string/title_activity_ampang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalim"
+            android:label="@string/title_activity_tanjung_malim"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ErlKlia2Transit"
+            android:label="@string/title_activity_erl_klia2_transit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TanjungMalimInfo.InfoTanjKepong"
+            android:label="@string/title_activity_info_tanj_kepong"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractBatuCaves"
+            android:label="@string/title_activity_attract_batu_caves"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractMidValleyMegaMallBangsar"
+            android:label="@string/title_activity_attract_mid_valley_mega_mall_bangsar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractBerjayaTimesSquare"
+            android:label="@string/title_activity_attract_berjaya_times_square"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractStreetFoodNightMarket"
+            android:label="@string/title_activity_attract_street_food_night_market"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attractionLandMark.attractChinaTownKualaLumpur"
+            android:label="@string/title_activity_attract_china_town_kuala_lumpur"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

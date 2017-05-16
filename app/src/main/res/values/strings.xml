@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">MyLRTguide</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_taman_melati"> Station Taman Melati</string>
+    <string name="title_activity_info_wangsa_maju">Taman Melati - Wangsa Maju</string>
+    <string name="title_activity_info_sri_rampai">Taman Melati - Sri Rampai</string>
+    <string name="title_activity_info_setia_wangsa">Taman Melati - Setia Wangsa</string>
+    <string name="title_activity_info_jelatek">Taman Melati - Jelatek</string>
+    <string name="title_activity_info_dato_keramat">Taman Melati - Dato Keramat</string>
+    <string name="title_activity_info_damai">Taman Melati - Damai</string>
+    <string name="title_activity_info_ampang_park">Taman Melati - Ampang Park</string>
+    <string name="title_activity_info_klcc">Taman Melati - KLCC</string>
+    <string name="title_activity_info_kampung_baru">Taman Melati - Kampung Baru</string>
+    <string name="title_activity_info_masjid_jamek">Taman Melati - Masjid Jamek</string>
+    <string name="title_activity_info_pasar_seni">Taman Melati - Pasar Seni</string>
+    <string name="title_activity_info_klsentral">Taman Melati - KL Sentral</string>
+    <string name="title_activity_info_bangsar">Taman Melati - Bangsar</string>
+    <string name="title_activity_info_abdullah_hukum">Taman Melati - Abdullah Hukum</string>
+    <string name="title_activity_info_kerinchi">Taman Melati - Kerinchi</string>
+    <string name="title_activity_info_universiti">Taman Melati - Universiti</string>
+    <string name="title_activity_info_taman_jaya">Taman Melati - TamanJaya</string>
+    <string name="title_activity_info_asia_jaya">Taman Melati - Asia Jaya</string>
+    <string name="title_activity_info_taman_paramount">Taman Melati - Taman Paramount</string>
+    <string name="title_activity_info_taman_bahagia">Taman Melati - Taman Bahagia</string>
+    <string name="title_activity_info_kelana_jaya">Taman Melati - Kelana Jaya</string>
+    <string name="title_activity_attract_suria">Suria KLCC</string>
+    <string name="title_activity_attract_aqua">Aquaria KLCC</string>
+    <string name="title_activity_attract_menara">Menara Berkembar Petronas</string>
+    <string name="title_activity_attract_masjid">Masjid Jamek</string>
+    <string name="title_activity_attract_dataran">Dataran Merdeka</string>
+    <string name="title_activity_attract_city">Kuala Lumpur City Gallery</string>
+    <string name="title_activity_attract_sultan">Banggunan Sultan Abdul Samad</string>
+    <string name="title_activity_attract_market">Central Market Kuala Lumpur</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_attract_sulta">Bangunan Sultan Abdul Samad</string>
+    <string name="title_activity_batu_caves">Station Batu Caves </string>
+    <string name="title_activity_info_bt_cv_taman_wahyu">Batu Caves - Taman Wahyu</string>
+    <string name="title_activity_info_bt_cv_kg_batu">Batu Caves - Kg Batu</string>
+    <string name="title_activity_info_bt_cv_batu_kenton">Batu Caves - Batu Kentonmen</string>
+    <string name="title_activity_info_bt_cv_sentul">Batu Caves - Sentul</string>
+    <string name="title_activity_info_bt_cv_putra">Batu Caves - Putra</string>
+    <string name="title_activity_info_bt_cv_bank_negara">Batu Caves - Bank Negara</string>
+    <string name="title_activity_info_bt_cv_kuala_lumpur">Batu Caves - Kuala Lumpur</string>
+    <string name="title_activity_info_bt_cv_klsentral">Batu Caves - KL Sentral</string>
+    <string name="title_activity_info_bt_cv_mid_valley">Batu Caves - Mid Valley</string>
+    <string name="title_activity_info_bt_cv_seputeh">Batu Caves - Seputeh</string>
+    <string name="title_activity_info_bt_cv_salak_selatan">Batu Caves - Salak Selatan</string>
+    <string name="title_activity_info_bt_cv_bandar_tasik_selatan">Batu Caves - Bandar Tasik Selatan
+    </string>
+    <string name="title_activity_info_bt_cv_serdang">Batu Caves - Serdang</string>
+    <string name="title_activity_info_bt_cv_kajang">Batu Caves - Kajang</string>
+    <string name="title_activity_info_bt_cv_ukm">Batu Caves - UKM</string>
+    <string name="title_activity_info_bt_cv_bangi">Batu Caves - Bangi</string>
+    <string name="title_activity_info_bt_cv_batang_benar">Batu Caves - BatangBenar</string>
+    <string name="title_activity_info_bt_cv_nilai">Batu Caves - Nilai</string>
+    <string name="title_activity_info_bt_cv_labu">Batu Caves - Labu</string>
+    <string name="title_activity_info_bt_cv_tiroi">Batu Caves - Tiroi</string>
+    <string name="title_activity_info_bt_cv_seremban">Batu Caves - Seremban</string>
+    <string name="title_activity_info_bt_cv_senawang">Batu Caves - Senawang</string>
+    <string name="title_activity_info_bt_cv_sg_gadut">Batu Caves - SgGadut</string>
+    <string name="title_activity_info_bt_cv_rembau">Batu Caves - Rembau</string>
+    <string name="title_activity_info_bt_cv_pulau_sebang_tampin">Batu Caves - Pulau Sebang Tampin</string>
+    <string name="title_activity_info_amp_cahaya">Ampang - Cahaya</string>
+    <string name="title_activity_info_amp_cempaka">Ampang - Cempaka</string>
+    <string name="title_activity_info_amp_pandan_indah">Ampang - Pandan Indah</string>
+    <string name="title_activity_info_amp_pandan_jaya">Ampang - Pandan Jaya</string>
+    <string name="title_activity_info_amp_maluri">Ampang - Maluri</string>
+    <string name="title_activity_info_amp_miharja">Ampang - Miharja</string>
+    <string name="title_activity_info_amp_chan_sow_lin">Ampang - Chan Sow Lin</string>
+    <string name="title_activity_info_amp_pudu">Ampang - Pudu</string>
+    <string name="title_activity_info_amp_hang_tuah">Ampang - Hang Tuah</string>
+    <string name="title_activity_info_amp_plaza_rakyat">Ampang - Plaza Rakyat</string>
+    <string name="title_activity_info_amp_masjid_jamek">Ampang - Masjid Jamek</string>
+    <string name="title_activity_info_amp_bandarraya">Ampang - Bandarraya</string>
+    <string name="title_activity_info_amp_sultan_ismail">Ampang - Sultan Ismail</string>
+    <string name="title_activity_info_amp_pwtc">Ampang - PWTC</string>
+    <string name="title_activity_info_amp_titiwangsa">Ampang - Titiwangsa</string>
+    <string name="title_activity_info_amp_sentul">Ampang - Sentul</string>
+    <string name="title_activity_info_amp_sentul_timur">Ampang - Sentul Timur</string>
+    <string name="title_activity_info_tanj_kuala_kubu_bharu">Tanjung Malim - KualaKubuBharu</string>
+    <string name="title_activity_info_tanj_rasa">Tanjung Malim - Rasa</string>
+    <string name="title_activity_info_tanj_batang_kali">Tanjung Malim - BatangKali</string>
+    <string name="title_activity_info_tanj_serendah">Tanjung Malim - Serendah</string>
+    <string name="title_activity_info_tanj_rawang">Tanjung Malim - Rawang</string>
+    <string name="title_activity_info_tanj_kuang">Tanjung Malim - Kuang</string>
+    <string name="title_activity_info_tanj_sg_buluh">Tanjung Malim - Sg Buloh</string>
+    <string name="title_activity_info_tanj_kepong_sentral">Tanjung Malim - Kepong Sentral</string>
+    <string name="title_activity_info_tanj_segambut">Tanjung Malim - Segambut</string>
+    <string name="title_activity_info_tanj_putra">Tanjung Malim - Putra</string>
+    <string name="title_activity_info_tanj_bank_negara">Tanjung Malim - Bank Negara</string>
+    <string name="title_activity_info_tanj_kuala_lumpur">Tanjung Malim - Kuala Lumpur</string>
+    <string name="title_activity_info_tanj_klsentral">Tanjung Malim - KL Sentral</string>
+    <string name="title_activity_info_tanj_angkasapuri">Tanjung Malim - Angkasapuri</string>
+    <string name="title_activity_info_tanj_pantai_dalam">Tanjung Malim - Pantai Dalam</string>
+    <string name="title_activity_info_tanj_petaling">Tanjung Malim - Petaling</string>
+    <string name="title_activity_info_tanj_jalan_templer">Tanjung Malim - Jalan Templer</string>
+    <string name="title_activity_info_tanj_kg_dato_harun">Tanjung Malim - Kg Dato Harun</string>
+    <string name="title_activity_info_tanj_seri_setia">Tanjung Malim - Seri Setia</string>
+    <string name="title_activity_info_tanj_setia_jaya">Tanjung Malim - Setia Jaya</string>
+    <string name="title_activity_info_tanj_subang_jaya">Tanjung Malim - Subang Jaya</string>
+    <string name="title_activity_info_tanj_batu_tiga">Tanjung Malim - Batu Tiga</string>
+    <string name="title_activity_info_tanj_shah_alam">Tanjung Malim - Shah Alam</string>
+    <string name="title_activity_info_tanj_padang_jawa">Tanjung Malim - Padang Jawa</string>
+    <string name="title_activity_info_tanj_bukit_badak">Tanjung Malim - Bukit Badak</string>
+    <string name="title_activity_info_tanj_klang">Tanjung Malim - Klang</string>
+    <string name="title_activity_info_tanj_teluk_pulai">Tanjung Malim - Teluk Pulai</string>
+    <string name="title_activity_info_tanj_teluk_gadong">Tanjung Malim - Teluk Gadong</string>
+    <string name="title_activity_info_tanj_kg_raja_uda">Tanjung Malim - Kg Raja Uda</string>
+    <string name="title_activity_info_tanj_jalan_kastam">Tanjung Malim - Jalan Kastam</string>
+    <string name="title_activity_info_tanj_pelabuhan_klang">Tanjung Malim - Pelabuhan Klang</string>
+    <string name="title_activity_erl_klia2_express">ERL KLIA 2 Express</string>
+    <string name="title_activity_info_klia2_ex_kli">ERL KLIA 2 Express - KLIA</string>
+    <string name="title_activity_info_klia2_ex_kl_sentral">ERL KLIA 2 Express - KlSentral</string>
+    <string name="title_activity_info_erl_klia2_ex_kli">ERL KLIA 2 Express - KLIA</string>
+    <string name="title_activity_info_erl_klia2_ex_kl_sentral">ERL KLIA 2 Express - KlSentral</string>
+    <string name="title_activity_info_erl_klia2_trans_kli">ERL KLIA 2 Transit - KLIA</string>
+    <string name="title_activity_info_erl_klia2_trans_salak_tinggi">ERL KLIA 2 Transit - Salak Tinggi
+    </string>
+    <string name="title_activity_info_erl_klia2_trans_putra_cyber">ERL KLIA 2 Transit - Putrajaya/Cyberjaya
+    </string>
+    <string name="title_activity_info_erl_klia2_trans_bandar_tasik_selatan">
+        ERL KLIA 2 Transit - Bandar Tasik Selatan
+    </string>
+    <string name="title_activity_info_erl_klia2_trans_kl_sentral">ERL KLIA 2 Transit - KlSentral
+    </string>
+    <string name="title_activity_ampang">Ampang</string>
+    <string name="title_activity_tanjung_malim">Tanjung Malim</string>
+    <string name="title_activity_erl_klia2_transit">ERL KLIA 2 Transit</string>
+    <string name="title_activity_info_tanj_kepong">Tanjung Malim - Kepong</string>
+    <string name="title_activity_attract_batu_cave">Batu Caves</string>
+    <string name="title_activity_attract_batu_caves">Batu Caves</string>
+    <string name="title_activity_attract_mid_valley_mega_mall_bangsar">
+        Mid Valley Mega Mall, Bangsar
+    </string>
+    <string name="title_activity_attract_berjaya_times_square">Berjaya Times Square</string>
+    <string name="title_activity_attract_street_food_night_market">Street Food Night Market
+    </string>
+    <string name="title_activity_attract_china_town_kuala_lumpur">China Town Kuala Lumpur
+    </string>
+
+
+
+    <string name="suria_txt">"Suria KLCC is the largest retail property under the management of Suria KLCC Sdn. Bhd. Other properties under their management include: Alamanda Putrajaya, a regional shopping centre; Mesra Mall Terengganu, a sub regional shopping centre; and Anjung Putrajaya, a convenience centre."</string>
+
+    <string name="aqua_txt">"The Aquaria KLCC is an oceanarium located beneath Kuala Lumpur Convention Centre within Kuala Lumpur City Centre in Kuala Lumpur, Malaysia."</string>
+
+    <string name="batucaves_txt">Batu Caves (Tamil: பத்து மலை) is a limestone hill that has a series of caves and cave temples in Gombak, Selangor, Malaysia. It takes its name from the Sungai Batu (Stone River), which flows past the hill. It is the tenth (Pattu in Tamil) limestone hill from Ampang. Batu Caves is also the name of a nearby village.</string>
+
+    <string name="menaraberkembar_txt">The Petronas Towers, also known as the Petronas Twin Towers (Malay: Menara Petronas, or Menara Berkembar Petronas), are twin skyscrapers in Kuala Lumpur, Malaysia. According to the Council on Tall Buildings and Urban Habitat (CTBUH) official definition and ranking, they were the tallest buildings in the world from 1998 to 2004 and remain the tallest twin towers in the world. The buildings are a landmark of Kuala Lumpur, along with nearby Kuala Lumpur Tower.</string>
+
+    <string name="masjidjamek_txt">Jamek Mosque (Malay: Masjid Jamek) is one of the oldest mosques in Kuala Lumpur, Malaysia.[1] It is located at the confluence of the Klang and Gombak River and may be accessed via Jalan Tun Perak. The mosque was designed by Arthur Benison Hubback, and built in 1909.</string>
+
+    <string name="dataranmerdeka_txt">Dataran Merdeka is a square located in Kuala Lumpur, Malaysia. It is situated in front of the Sultan Abdul Samad Building. Literally Independence Square, it was formerly known as the Selangor Club Padang or simply the "Padang" and was used as the cricket green of the Selangor Club (now Royal Selangor Club). It was here the Union Flag was lowered and the Malayan flag hoisted for the first time at midnight (time: 12:00 AM) on 31 August 1957. Since then, Merdeka Square has been the usual venue for the annual Merdeka Parade (National Day Parade).</string>
+
+    <string name="klcitygallery_txt">The Kuala Lumpur City Gallery is operated by ARCH Collection Sdn. Bhd. ARCH is a Malaysian brand that makes collectables and gifts made of wood veneer (using laser technology), they also publish the Kuala Lumpur Walks and Tours map. Their work shop is located at the ground floor of the City Gallery. ARCH created  the City Gallery to not only promote their own products but also the heritage and culture of Kuala Lumpur.</string>
+
+    <string name="sultanabdul_txt">The Sultan Abdul Samad Building (Malay: Bangunan Sultan Abdul Samad; Jawi: باڠونن سلطان عبدالصمد) is a late nineteenth century building located along Jalan Raja in front of the Dataran Merdeka (Independence Square) and the Royal Selangor Club in Kuala Lumpur, Malaysia. The building originally housed the offices of the British colonial administration, and was known simply as Government Offices in its early years, later it was renamed after Sultan Abdul Samad, the reigning sultan of Selangor at the time when construction began.</string>
+
+    <string name="centralmarket_txt">Central Market Kuala Lumpur is located at Jalan Tun Tan Cheng Lock (Foch Avenue) and the pedestrian-only section of Jalan Hang Kasturi (Rodger Street), a few minutes away from Petaling Street. It was founded in 1888 and originally used as a wet market,[1] while the current Art Deco style building was completed in 1937. It has been classified as a Heritage Site by the Malaysian Heritage Society and it is now a landmark for Malaysian culture and heritage.</string>
+
+    <string name="midvalley_txt">Bangsar and Midvalley are two areas located to the south of Kuala Lumpur City Centre. Bangsar is a high-income suburban area which is also a popular for its restaurants, watering holes and clubs. The area is frequented by many of Kuala Lumpur expatriate community. Midvalley, which is linked directly to Bangsar via an overpass, is a relatively new development which has become very popular for shopping, thanks to the perpetually packed MidValley Megamall and its higher-end extension called The Gardens, which was opened at the end of 2007. Besides shopping, the two malls and surrounding areas also offer plenty of eating options. There are also three hotels within the Mid Valley Complex, and cheaper ones within walking distance.</string>
+
+    <string name="berjayatimes_txt">Located in Jalan Imbi, right in the heart of Kuala Lumpur, Berjaya Times Square is a 7.5 million-sq ft shopping mall in Malaysia that houses over a 1,000 shoplots, theme parks, cinemas, and more. Whether you are looking for excellent shopping experiences, luxury accommodations, business facilities, and restaurants, Berjaya Times Square has it all under one roof.</string>
+
+    <string name="streetfood_txt">Jalan Alor is a unique food destination in the heart of Kuala Lumpur. The whole character of the city changes when you step onto the street. Gone are the modern shopping malls that align the city, which are replaced with something of the past age. During the day, there is not much activity but when the sun goes down, the street will be hustling and bustling with activity.</string>
+
+    <string name="chinatown_txt">At the heart of Kuala Lumpur is an area which never sleeps, and far more colourful and bustling than its bigger and more glamourous neighbours, KLCC and Bukit Bintang. Chinatown, based in Petaling Street, is also known as "Chee Cheong Kai" (Starch Factory Street), a reference to its roots as a tapioca-producing district. Deeply immersed in Oriental culture, heritage and history, Chinatown is undoubtedly one of the most popular tourist spots in Malaysia.</string>
+
+    <string name="go_now">Click the orange float button below, to see this place on map !!</string>
+
+
+</resources>

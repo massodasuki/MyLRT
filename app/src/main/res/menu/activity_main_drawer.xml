@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_railway_tmn_melati"
+            android:icon="@drawable/ic_directions_railway"
+            android:title="Taman Melati" />
+        <item
+            android:id="@+id/nav_railway_batu_caves"
+            android:icon="@drawable/ic_directions_railway"
+            android:title="Batu Caves" />
+        <item
+            android:id="@+id/nav_railway_ampang"
+            android:icon="@drawable/ic_directions_railway"
+            android:title="Ampang" />
+        <item
+            android:id="@+id/nav_railway_tanjung_malim"
+            android:icon="@drawable/ic_directions_railway"
+            android:title="Tanjung Malim" />
+        <item
+            android:id="@+id/nav_railway_klia2express"
+            android:icon="@drawable/ic_directions_railway"
+            android:title="ERL KLIA 2 Express" />
+
+        <item
+            android:id="@+id/nav_railway_klia2transit"
+            android:icon="@drawable/ic_directions_railway"
+            android:title="ERL KLIA 2 Transit" />
+
+    </group>
+
+    <item android:title="Attraction">
+        <menu>
+            <item
+                android:id="@+id/Suria"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Suria KLCC" />
+            <item
+                android:id="@+id/Aqua"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Aquaria KLCC" />
+            <item
+                android:id="@+id/Menara"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Menara Berkembar Petronas" />
+            <item
+                android:id="@+id/Masjid"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Masjid Jamek" />
+
+            <item
+                android:id="@+id/Dataran"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Dataran Merdeka" />
+
+            <item
+                android:id="@+id/City"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kuala Lumpur City Gallery" />
+            <item
+                android:id="@+id/Sultan"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Bangunan Sultan Abdul Samad" />
+            <item
+                android:id="@+id/Market"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Central Market Kuala Lumpur" />
+
+        </menu>
+    </item>
+
+    <item android:title="Batu Caves Attraction">
+        <menu>
+            <item
+                android:id="@+id/BatuCaves"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Batu Caves" />
+
+            <item
+                android:id="@+id/Megamall"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mid Valley Megamall, Bangsar" />
+        </menu>
+    </item>
+
+    <item android:title="Ampang Attraction">
+        <menu>
+
+            <item
+                android:id="@+id/Berjaya"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Berjaya Times Square" />
+
+            <item
+                android:id="@+id/Food"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Alor Street Food Night Market" />
+
+            <item
+                android:id="@+id/China"
+                android:icon="@drawable/ic_menu_send"
+                android:title="China Town Kuala Lumpur" />
+
+        </menu>
+    </item>
+
+</menu>
